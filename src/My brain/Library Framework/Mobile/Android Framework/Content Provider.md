@@ -24,4 +24,4 @@ Content Resolver가 URI를 요청하면 그에 맞게 Content Provider는 DB에�
     - selectionArgs: selection에서 ?로 표시한 곳에 들어갈 데이터.
     - sortOrder: 정렬할 위한 order by 구문.
 
-[Intent](Content%20Provider%202c76ac61f4254ebe917f974c418d8f88/Intent%2057034274b5f44a93bc6c95321b029778.md)
+[Intent%2057034274b5f44a93bc6c95321b029778](Intent%2057034274b5f44a93bc6c95321b029778)

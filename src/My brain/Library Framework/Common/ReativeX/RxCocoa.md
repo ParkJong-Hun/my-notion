@@ -1,6 +1,6 @@
 # RxCocoa
 
-[RxSwift](RxSwift%208cbccbb2c31c4577bd9a8c4571c31e93.md)
+[RxSwift%208cbccbb2c31c4577bd9a8c4571c31e93](RxSwift%208cbccbb2c31c4577bd9a8c4571c31e93)
 
 <aside>
 💡 ReactiveX 프레임워크를 Swift 언어로 구현한 것.

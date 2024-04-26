@@ -6,7 +6,7 @@ ProGuard는 Java 클래스 파일을 분석해 사용되는 않는 코드를 제
 
 </aside>
 
-[R8](ProGuard%207c65bc1482fc4d9b94321039cd0c7ba5/R8%20d147c8a4f587405c98fd4e29b18d72f5.md)
+[R8%20d147c8a4f587405c98fd4e29b18d72f5](R8%20d147c8a4f587405c98fd4e29b18d72f5)
 
 **-keep**
 

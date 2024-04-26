@@ -1,6 +1,6 @@
 # CocoaPods 커맨드
 
-[맥(Mac) - 코코아팟 제거하고 재 설치하기](https://mansu.tistory.com/23)
+[23](23)
 
 ## Pods 제거
 

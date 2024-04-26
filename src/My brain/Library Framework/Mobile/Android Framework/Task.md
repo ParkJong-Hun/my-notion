@@ -8,4 +8,4 @@ Task는 고유한 ID를 가지며, 이를 통해 앱 구성 요소 간 데이터
 
 </aside>
 
-[Back Stack](Task%200a40e9c8ad054c2eb4e1f5dc59155811/Back%20Stack%20c2e585a100c948c1b9a84095df869abe.md)
+[Back%20Stack%20c2e585a100c948c1b9a84095df869abe](Back%20Stack%20c2e585a100c948c1b9a84095df869abe)

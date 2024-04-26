@@ -17,37 +17,37 @@
 
 **org.gradle.caching=(true, false)**
 
-[Build Cache](https://docs.gradle.org/current/userguide/build_cache.html#build_cache)
+[build_cache](build_cache)
 
 true로 설정하면 Gradle은 가능한 경우 이전 빌드의 작업 출력을 재사용하므로 빌드 속도가 훨씬 빨라짐. 기본적으로는 활성화되어 있지 않음.
 
 **org.gradle.caching.debug=(true,false)**
 
-[Build Cache](https://docs.gradle.org/current/userguide/build_cache.html#sec:task_output_caching)
+[build_cache](build_cache)
 
 true로 설정하면 각 작업에 대한 개별 입력 속성 해시와 빌드 캐시 키가 콘솔에 기록됨. 기본값은 false.
 
 **org.gradle.configureondemand=(true,false)**
 
-[Configuration time and execution time](https://docs.gradle.org/current/userguide/multi_project_configuration_and_execution.html#sec:configuration_on_demand)
+[multi_project_configuration_and_execution](multi_project_configuration_and_execution)
 
 Gradle이 필요한 프로젝트만 구성하려고 시도하는 온디맨드 인큐베이팅 구성을 활성화함. 기본값은 거짓
 
 **org.gradle.console=(auto,plain,rich,verbose)**
 
-[Command-Line Interface](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_logging)
+[command_line_interface](command_line_interface)
 
 콘솔 출력 색상 또는 자세한 정도를 사용지 지정. 기본값은 Gradle이 호출되는 방식에 따라 다름.
 
 **org.gradle.continuous.quietperiod=(# of quiet period millis)**
 
-[Command-Line Interface](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:continuous_build)
+[command_line_interface](command_line_interface)
 
 연속 빌드를 사용하는 경우 Gradle은 다른 빌드를 트리거하기 전에 조용한 기간이 지날 때까지 기다림. 이 대기 기간 내의 추가 변경 사항은 대기 기간 동안 다시 시작됨. 기본값은 250ms.
 
 **org.gradle.daemon=(true,false)**
 
-[The Gradle Daemon](https://docs.gradle.org/current/userguide/gradle_daemon.html#gradle_daemon)
+[gradle_daemon](gradle_daemon)
 
 true로 설정하면 Gradle 데몬이 빌드를 실행하는 데 사용됨.
 
@@ -79,13 +79,13 @@ true로 설정되고 디버깅이 활성화되면 Gradle을 실행하는 JVM이 
 
 **org.gradle.java.home=(path to JDK home)**
 
-[Build Environment](https://docs.gradle.org/current/userguide/build_environment.html#sec:gradle_environment_variables)
+[build_environment](build_environment)
 
 Gradle 빌드 프로세스에 대한 Java 홈을 지정. 값은 jdk 또는 jre 위치로 설정할 수 있지만 빌드가 수행하는 작업에 따라 JDK를 사용한느 것이 더 안전. 이는 Gradle 클라이언트 VM을 시작하는 데 사용되는 Java 버전에 영향을 주지 않음. 설정이 지정되지 않은 경우 적절한 기본값을 환경(JAVA_HOME 또는 java 경로)에서 파생.
 
 **org.gradle.jvmargs=(JVM arguments)**
 
-[Build Environment](https://docs.gradle.org/current/userguide/build_environment.html#sec:configuring_jvm_memory)
+[build_environment](build_environment)
 
 Gradle Daemon에 사용되는 JVM 인수를 지정. 이 설정은 빌드 성능을 위해 JVM 메모리 설정을 구성하는 데 특히 유용. 이는 Gradle 클라이언트 VM의 JVM 설정에 영향을 주지 않음. 기본값은 -Xmx512m “-XX:MaxMetaspaceSize=384m”.
 
@@ -99,13 +99,13 @@ queit, warm, lifecycle, info 또는 debug로 설정하면 Gradle이 이 로그 �
 
 **org.gradle.parallel=(true,false)**
 
-[Improve the Performance of Gradle Builds](https://docs.gradle.org/current/userguide/performance.html#parallel_execution)
+[performance](performance)
 
 구성되면 Gradle은 최대 org.gradle.workers.max로 JVM을 분기해 프로젝트를 병렬로 실행. 기본값은 거짓.
 
 **org.gradle.priority=(low,normal)**
 
-[Command-Line Interface](https://docs.gradle.org/current/userguide/command_line_interface.html#sec:command_line_performance)
+[command_line_interface](command_line_interface)
 
 Gradle 데몬에서 실행되는 모든 프로세스의 스케줄링 우선순위를 지정. 기본값은 normal
 

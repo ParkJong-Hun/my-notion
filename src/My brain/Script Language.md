@@ -1,13 +1,13 @@
 # Script Language
 
-[Unix Shell](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Unix%20Shell%20f5587cdde7aa4d2591cb15c495eb89ce.md)
+[Unix%20Shell%20f5587cdde7aa4d2591cb15c495eb89ce](Unix%20Shell%20f5587cdde7aa4d2591cb15c495eb89ce)
 
-[Version catalog](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Version%20catalog%205f7eac1fa2f74a999d93ffa7d6ba6f00.md)
+[Version%20catalog%205f7eac1fa2f74a999d93ffa7d6ba6f00](Version%20catalog%205f7eac1fa2f74a999d93ffa7d6ba6f00)
 
-[Swagger](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Swagger%20920780b89ccb4bf29eb21d099c897f8a.md)
+[Swagger%20920780b89ccb4bf29eb21d099c897f8a](Swagger%20920780b89ccb4bf29eb21d099c897f8a)
 
-[Zsh](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Zsh%200fbcb11bbb8744099bbda617d05d5138.md)
+[Zsh%200fbcb11bbb8744099bbda617d05d5138](Zsh%200fbcb11bbb8744099bbda617d05d5138)
 
-[Homebrew](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Homebrew%20a877e1192a9740b1919196abe8c3a9d2.md)
+[Homebrew%20a877e1192a9740b1919196abe8c3a9d2](Homebrew%20a877e1192a9740b1919196abe8c3a9d2)
 
-[Gem](Script%20Language%20ae7db65ea7e343648a4540a0db8d25f3/Gem%20ee65980952ce437780f2a55cff00d433.md)
+[Gem%20ee65980952ce437780f2a55cff00d433](Gem%20ee65980952ce437780f2a55cff00d433)

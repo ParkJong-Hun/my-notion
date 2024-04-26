@@ -12,11 +12,11 @@
 - `GlobalScope`는 앱 전체의 생명주기에 걸쳐 사용될 수 있으나 권장되지 않음.
 - `CoroutineScope`가 일반적으로 권장됨.
 
-[CoroutineScope](Coroutine%20aaf2a6e98c6b4fda8cce3fc4a0d30ab8/CoroutineScope%20db6ab3b6de76425581f4c45841409067.md)
+[CoroutineScope%20db6ab3b6de76425581f4c45841409067](CoroutineScope%20db6ab3b6de76425581f4c45841409067)
 
-[CoroutineContext](Coroutine%20aaf2a6e98c6b4fda8cce3fc4a0d30ab8/CoroutineContext%206067466184cf447d9528591cd92636e7.md)
+[CoroutineContext%206067466184cf447d9528591cd92636e7](CoroutineContext%206067466184cf447d9528591cd92636e7)
 
-[Job](Coroutine%20aaf2a6e98c6b4fda8cce3fc4a0d30ab8/Job%2034891f35fd4f4867ac9ddf70799ca098.md)
+[Job%2034891f35fd4f4867ac9ddf70799ca098](Job%2034891f35fd4f4867ac9ddf70799ca098)
 
 **launch**
 

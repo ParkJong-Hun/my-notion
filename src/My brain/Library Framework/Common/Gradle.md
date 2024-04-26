@@ -6,9 +6,9 @@
 
 </aside>
 
-[Gradle Plugin](Gradle%206883c89959be4e51bdbc17a87ae1dec2/Gradle%20Plugin%20645a0c1aac0e462c8afcdf76ed4ca3e5.md)
+[Gradle%20Plugin%20645a0c1aac0e462c8afcdf76ed4ca3e5](Gradle%20Plugin%20645a0c1aac0e462c8afcdf76ed4ca3e5)
 
-[./gradlew](Gradle%206883c89959be4e51bdbc17a87ae1dec2/gradlew%20189a43508e0846abab00b1f1fabf14ec.md)
+[gradlew%20189a43508e0846abab00b1f1fabf14ec](gradlew%20189a43508e0846abab00b1f1fabf14ec)
 
 ### **주요 특징**
 
