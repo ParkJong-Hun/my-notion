@@ -8,4 +8,4 @@ FIDO 표준을 기반으로 패스워드를 대체하고 디바이스의 모든 
 
 </aside>
 
-[FIDO](FIDO%20a12b9e77a48743eda2bccb962d8e8ea1.md)
+[FIDO%20a12b9e77a48743eda2bccb962d8e8ea1](FIDO%20a12b9e77a48743eda2bccb962d8e8ea1)

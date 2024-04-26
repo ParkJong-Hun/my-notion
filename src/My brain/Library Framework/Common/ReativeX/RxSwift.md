@@ -1,6 +1,6 @@
 # RxSwift
 
-[Swift](../../../Programming%20Language%204c228d6fa2444e4b8440840588bfaef0/Swift%209eebd2ca15aa466aaa6e9c5f0957d611.md)
+[Swift%209eebd2ca15aa466aaa6e9c5f0957d611](Swift%209eebd2ca15aa466aaa6e9c5f0957d611)
 
 <aside>
 💡 ReativeX 프레임워크의 반응형 프로그래밍을 위한 스위프트 언어용 라이브러리.

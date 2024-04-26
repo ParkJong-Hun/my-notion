@@ -1,6 +1,6 @@
 # Github SSH Key 작성
 
-[새 SSH 키 생성 및 ssh-agent에 추가 - GitHub Docs](https://docs.github.com/ko/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ## 새 SSH 키 생성
 

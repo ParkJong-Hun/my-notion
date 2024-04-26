@@ -1,6 +1,6 @@
 # Bundler
 
-[Ruby](../../Programming%20Language%204c228d6fa2444e4b8440840588bfaef0/Ruby%209d04253dc0dd4c1984886719f85cb506.md)
+[Ruby%209d04253dc0dd4c1984886719f85cb506](Ruby%209d04253dc0dd4c1984886719f85cb506)
 
 <aside>
 💡 Ruby 언어에서 사용되는 패키지 의존성 관리 도구.

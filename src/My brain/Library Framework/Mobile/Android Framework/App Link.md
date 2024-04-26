@@ -5,7 +5,7 @@
 
 </aside>
 
-[Deep Link](../../../Computer%20Science%20915624a6e5204e1c92de58c7899350dc/Deep%20Link%20fab576d7837c4034a7b0a93c1bebf099.md)
+[Deep%20Link%20fab576d7837c4034a7b0a93c1bebf099](Deep%20Link%20fab576d7837c4034a7b0a93c1bebf099)
 
 ### **추가하기**
 

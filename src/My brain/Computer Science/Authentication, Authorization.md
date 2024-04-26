@@ -25,10 +25,10 @@
 
 반대로, 인가 없이 인증만 있다면, 인증된 사용자라 하더라도 미승인된 자원에 접근할 수 있기 때문.
 
-[인증의 종류](Authentication,%20Authorization%204f44ac5229794e1987cc9f1348f9bb60/%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%85%E1%85%B2%208b88eecefa4b4ac0a95ea007fff4b2f5.md)
+[%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%85%E1%85%B2%208b88eecefa4b4ac0a95ea007fff4b2f5](%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%8B%E1%85%B4%20%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%85%E1%85%B2%208b88eecefa4b4ac0a95ea007fff4b2f5)
 
-[OAuth 2.0](Authentication,%20Authorization%204f44ac5229794e1987cc9f1348f9bb60/OAuth%202%200%205d4df9fa04ee4fa086c71926db847c27.md)
+[OAuth%202%200%205d4df9fa04ee4fa086c71926db847c27](OAuth%202%200%205d4df9fa04ee4fa086c71926db847c27)
 
-[OAuth 2.0](Authentication,%20Authorization%204f44ac5229794e1987cc9f1348f9bb60/OAuth%202%200%208aa02feaa5364cfb9e465b0c0a161e9e.md)
+[OAuth%202%200%208aa02feaa5364cfb9e465b0c0a161e9e](OAuth%202%200%208aa02feaa5364cfb9e465b0c0a161e9e)
 
-[OAuth](Authentication,%20Authorization%204f44ac5229794e1987cc9f1348f9bb60/OAuth%201e3c7b85ddcd4a7eb2ab4e0759459a31.md)
+[OAuth%201e3c7b85ddcd4a7eb2ab4e0759459a31](OAuth%201e3c7b85ddcd4a7eb2ab4e0759459a31)

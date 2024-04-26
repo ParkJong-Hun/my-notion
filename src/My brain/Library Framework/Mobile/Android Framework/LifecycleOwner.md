@@ -7,7 +7,7 @@
 
 </aside>
 
-[Lifecycle](Lifecycle%208af5874f03e84f6386306cf064c67b20.md)
+[Lifecycle%208af5874f03e84f6386306cf064c67b20](Lifecycle%208af5874f03e84f6386306cf064c67b20)
 
 `Fragment`와 `AppCompatActivity`와 같은 개별 클래스에서 `Lifecycle`의 소유권을 추출해, 함께 작동하는 컴포넨트를 작성할 수 있게 함. 모든 맞춤 애플리케이션 클래스는 `LifecycleOwner` 인터페이스를 구현할 수 있음.
 

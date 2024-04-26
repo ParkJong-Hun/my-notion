@@ -1,6 +1,6 @@
 # Git
 
-[버전 관리](https://www.notion.so/051a075c420849c49cdef1507106d8c9?pvs=21)
+[051a075c420849c49cdef1507106d8c9?pvs=21](051a075c420849c49cdef1507106d8c9?pvs=21)
 
 **git reset {COMMIT} {path/file}**
 

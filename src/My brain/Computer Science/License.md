@@ -15,6 +15,6 @@
 
 MIT License == BSD License == Apache License > CC BY > GNU GPL > Proprietary Licenses
 
-[Open Standard](License%20820d62a61b2144ad859ce270e3eeda4e/Open%20Standard%202e8aec7d569541afb4a01744e2626fcd.md)
+[Open%20Standard%202e8aec7d569541afb4a01744e2626fcd](Open%20Standard%202e8aec7d569541afb4a01744e2626fcd)
 
-[Open Source](License%20820d62a61b2144ad859ce270e3eeda4e/Open%20Source%20e592712bf23540388af36e6e4400cc80.md)
+[Open%20Source%20e592712bf23540388af36e6e4400cc80](Open%20Source%20e592712bf23540388af36e6e4400cc80)

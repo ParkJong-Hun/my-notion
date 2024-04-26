@@ -17,7 +17,7 @@ Firebase 프로젝트를 생성하고 Android 앱을 프로젝트에 연결할 �
     - Android 앱의 고유한 식별자.
     - Google play 스토어에 게시하고 안드로이드 단말에서 설치된 앱을 식별하는 데 사용.
     - 일반적으로 도메인 이름의 반대 형식.
-        - ex) [your-project-id.appspot.com](http://your-project-id.appspot.com) → com.yourdomain.yourapp
+        - ex) [your-project-id.appspot](your-project-id.appspot) → com.yourdomain.yourapp
 
 - 번들 ID
     - iOS 앱의 고유한 식별자.

@@ -13,4 +13,4 @@ Certificate Transparency(CT)를 강제 적용하기 위한 HTTP 헤더.
 
 이는 인증서 위조나 중간자 공격을 방지하고 웹 보안을 강화하는 데 도움이 됨.
 
-[Expect-CT](CT%20907b7fb72a6a40bf82a98f873b5da695/Expect-CT%20a3eb8ea24019476f87396459ecfc408e.md)
+[Expect-CT%20a3eb8ea24019476f87396459ecfc408e](Expect-CT%20a3eb8ea24019476f87396459ecfc408e)

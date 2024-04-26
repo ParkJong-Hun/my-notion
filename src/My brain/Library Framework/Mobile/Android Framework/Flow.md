@@ -26,9 +26,9 @@
 
 ## 파생 Flow
 
-[StateFlow](Flow%207ff3904dbbff41fa849c387ffbed116b/StateFlow%20d586a489087b4534b323b21209e05ad2.md)
+[StateFlow%20d586a489087b4534b323b21209e05ad2](StateFlow%20d586a489087b4534b323b21209e05ad2)
 
-[SharedFlow](Flow%207ff3904dbbff41fa849c387ffbed116b/SharedFlow%20d781747ff0c348cbbd2ab136b800507b.md)
+[SharedFlow%20d781747ff0c348cbbd2ab136b800507b](SharedFlow%20d781747ff0c348cbbd2ab136b800507b)
 
 ## 역할
 

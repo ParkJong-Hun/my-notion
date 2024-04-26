@@ -13,4 +13,4 @@
 
 종종 특정한 도메인이나 플랫폼을 위한 개발을 지원하기 위해 설계되며, 웹 개발, 모바일 애플리케이션 개발, 게임 개발 등 다양한 분야에서 사용됨. 예를 들어, 웹 개발에서는 Django, Ruby on Rails, Laravel 등의 프레임워크가 널리 사용됨.
 
-[SOLID Rules](Framework%200e548ef8bf0445d2837deae851fc0cdd/SOLID%20Rules%2021b73432656645ee83531d34b52aaffc.md)
+[SOLID%20Rules%2021b73432656645ee83531d34b52aaffc](SOLID%20Rules%2021b73432656645ee83531d34b52aaffc)

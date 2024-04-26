@@ -6,4 +6,4 @@ FragmentActivity, AppCompatActivity에서 `getSupportFragmentManager()` 로 취�
 
 </aside>
 
-[Fragment Transaction](FragmentManager%2073b56a7019a643f380ed00e0bb55033e/Fragment%20Transaction%200d68d75a8ef24dddb63bd0e073d44343.md)
+[Fragment%20Transaction%200d68d75a8ef24dddb63bd0e073d44343](Fragment%20Transaction%200d68d75a8ef24dddb63bd0e073d44343)

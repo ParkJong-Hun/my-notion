@@ -5,7 +5,7 @@
 
 </aside>
 
-[수명 주기 인식 구성요소로 수명 주기 처리  |  Android 개발자  |  Android Developers](https://developer.android.com/topic/libraries/architecture/lifecycle?hl=ko#lco)
+[lifecycle?hl=ko#lco](lifecycle?hl=ko#lco)
 
 **이벤트**
 

@@ -19,11 +19,13 @@ KMM을 사용하면 코드의 재사용성이 향상되고 개발 시간이 단�
 
 ### **사용하는 프로그래밍 언어**
 
-[Kotlin](../../Programming%20Language%204c228d6fa2444e4b8440840588bfaef0/Kotlin%20d3702579c4774777b0e880ce2ebbdae8.md)
+[Kotlin%20d3702579c4774777b0e880ce2ebbdae8](Kotlin%20d3702579c4774777b0e880ce2ebbdae8)
 
-[KDoctor](Kotlin%20Multiplatform%20fd180ee6bb2d4123840548162143a969/KDoctor%20d307d53bf8494e4e9f2c4f2acf413f15.md)
+[KDoctor%20d307d53bf8494e4e9f2c4f2acf413f15](KDoctor%20d307d53bf8494e4e9f2c4f2acf413f15)
 
-[Kodein](Kotlin%20Multiplatform%20fd180ee6bb2d4123840548162143a969/Kodein%207ee8d6e8662a4e03b152387b95aec1b3.md)
+[Kodein%207ee8d6e8662a4e03b152387b95aec1b3](Kodein%207ee8d6e8662a4e03b152387b95aec1b3)
+
+[BuildKonfig%20d74b6015badd4a8fae491ef1b9c240fc](BuildKonfig%20d74b6015badd4a8fae491ef1b9c240fc)
 
 ### Module
 
@@ -43,6 +45,6 @@ Android 앱에 빌드되는 Kotlin 모듈.
 
 iOS 앱에 빌드되는 Xcode 프로젝트.
 
-[Swift/Objective-C 상호 운용성](Kotlin%20Multiplatform%20fd180ee6bb2d4123840548162143a969/Swift%20Objective-C%20%E1%84%89%E1%85%A1%E1%86%BC%E1%84%92%E1%85%A9%20%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20f01a5f4a054f4502845ef07c47dfc8d2.md)
+[Swift%20Objective-C%20%E1%84%89%E1%85%A1%E1%86%BC%E1%84%92%E1%85%A9%20%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20f01a5f4a054f4502845ef07c47dfc8d2](Swift%20Objective-C%20%E1%84%89%E1%85%A1%E1%86%BC%E1%84%92%E1%85%A9%20%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20f01a5f4a054f4502845ef07c47dfc8d2)
 
-[Compose Multiplatform](Kotlin%20Multiplatform%20fd180ee6bb2d4123840548162143a969/Compose%20Multiplatform%2024b683c77035484a9f9637e2995accad.md)
+[Compose%20Multiplatform%2024b683c77035484a9f9637e2995accad](Compose%20Multiplatform%2024b683c77035484a9f9637e2995accad)
