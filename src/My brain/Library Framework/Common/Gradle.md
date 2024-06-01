@@ -48,10 +48,13 @@
 
 - Gradle 빌드 스크립트를 작성해 프로젝트 빌드를 구성.
 - 각 프로젝트 디렉토리에 별도로 위치, 프로젝트의 컴파일, 의존성, 작업, 플러그인 적용.
+- KTS에서는 CommonExtension을 상속한 것을 사용.
 - **plugins**
     - Gradle 플러그인을 적용하고 관리.
     - 플러그인을 추가하고 구성.
 - **android**
+    - BaseExtension.
+    - com.android.application으로 사용 가능.
     - Android 앱 빌드 설정 정의.
         - 앱 버전, 미니멈 SDK 버전, 타겟 SDK 버전, 서명 설정 등
     - **buildFeatures**
@@ -75,6 +78,8 @@
 - **tasks**
     - Gradle 작업을 정의하고 구성.
     - 사용자 지정 작업, 빌드 단계 정의.
+    - **register**
+        - 커스텀 Task 등록.
 - **dependencies**
     - Gradle에서 작업 간 종속성을 관리.
     - 한 작업이 다른 작업에 의존하도록 지정 가능.
@@ -110,3 +115,7 @@
     - **releaseImplementation**
         - 릴리스 빌드 구성에서만 필요한 의존성
         - 앱이 릴리스될 때는 사용되는 라이브러리를 추가할 때 사용
+- **framework**
+    - Objective-C 프레임워크를 생성하고 구성.
+    - **export**
+        - 데이터나 모듈을 쓰기
