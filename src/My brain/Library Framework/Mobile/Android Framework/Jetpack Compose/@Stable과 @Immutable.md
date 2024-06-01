@@ -1,25 +1,31 @@
 # @Stable과 @Immutable
 
+# class
+
 **@Stable**
 
-데이터가 안정적임(입력값이 같으면, 결과값도 같음)을 나타냄.
-
-해당 어노테이션이 적용된 class는 Compose compiler가 내용을 관찰해 recomposition을 행함.
-
-단, 해당 인스턴스의 내용이 자주 변경된다면 오히려 퍼포먼스에 악영향이 있을 수 있음.
+- 데이터가 안정적임(입력값이 같으면, 결과값도 같음)을 나타냄.
+- 해당 어노테이션이 적용된 class는 Compose compiler가 내용을 관찰해 recomposition을 행함.
+- 단, 해당 인스턴스의 내용이 자주 변경된다면 오히려 퍼포먼스에 악영향이 있을 수 있음.
 
 **@Immutable**
 
-데이터가 불변성(Immutable)을 가지고 있음을 나타냄.
+- 데이터가 불변성(Immutable)을 가지고 있음을 나타냄.
+- data class에 적용되며, 클래스가 불변성을 보장하는 데이터를 보유하고 있는 경우 사용.
+- 해당 어노테이션이 적용된 data class는 동일한 데이터가 입력되면 항상 동일한 출력을 생성하는 것을 보장.
+- 데이터가 변경되면 Compose는 변경된 데이터를 기반으로 변경된 부분만 다시 렌더링.
+- recomposition 수를 줄일 수 있음.
+- Immutable이 될 수 있는 클래스는 예를 들어, 사용자, 위치, 이벤트 등이 있음.
+- 기본적으로 var가 존재하는 class, map, list, set은 Mutable로 판단함.
 
-data class에 적용되며, 클래스가 불변성을 보장하는 데이터를 보유하고 있는 경우 사용.
+- Kotlinx immutable collections를 사용하는 것이 대안이 될 수 있음.
 
-해당 어노테이션이 적용된 data class는 동일한 데이터가 입력되면 항상 동일한 출력을 생성하는 것을 보장.
+# fun
 
-데이터가 변경되면 Compose는 변경된 데이터를 기반으로 변경된 부분만 다시 렌더링.
+**Skippable**
 
-recomposition 수를 줄일 수 있음.
+- recomposition이 호출될 때, 모든 파라미터가 이전의 값과 같다면 skip 가능한 함수.
 
-Immutable이 될 수 있는 클래스는 예를 들어, 사용자, 위치, 이벤트 등이 있다.
+Restartable
 
-이 것들은 한 번 인스턴스가 생성되면 변경되지 않는다는 특징이 있다.
+- recomposition이 시작될 수 있는 엔트리 포인트 함수.

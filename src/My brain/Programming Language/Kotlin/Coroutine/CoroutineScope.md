@@ -16,4 +16,4 @@
 
 [CoroutineContext%206067466184cf447d9528591cd92636e7](CoroutineContext%206067466184cf447d9528591cd92636e7)
 
-- Dispatcher, Job, ExceptionHandler 등을 포함.
+- Dispatcher, Job, ExceptionHandler 등의 추상 인터페이스.

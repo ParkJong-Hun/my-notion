@@ -1,7 +1,7 @@
 # Kotlin Native
 
 <aside>
-💡 Kotlin의 변형. 
+💡 JVM 바이트 코드로 변환되지 않는 Kotlin.
 네이티브 플랫폼에서 실행될 수 있는 Kotlin 코드. 
 주로 iOS, macOS, Linux 등과 같은 네이티브 플랫폼에서 Kotlin을 사용하고자 할 때 유용. 
 네이티브 환경에서 최상의 성능을 제공.
