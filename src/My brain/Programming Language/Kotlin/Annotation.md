@@ -11,6 +11,8 @@
     - 특정 함수, 파라미터, 필드 등의 Int 값의 범위를 제한.
 - JvmOverloads
     - 함수 또는 생성자 파라미터에 default value가 설정되어 있으면 Compiler가 default value 만큼 오버로딩 함수를 만듦.
+- JvmStatic
+    - companion object에서 만든 메소드는 실행시에 인스턴스화되므로 Java의 static 메소드는 아닌데, 이 것으로 Java의 Static처럼 사용 가능.
 
 **Meta Annotation**
 

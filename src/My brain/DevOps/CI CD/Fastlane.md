@@ -22,3 +22,25 @@ Ruby 기반 DSL을 사용해 작업들을 정의, 사용자들은 Fastlane 공�
     - 다양한 환경에 따라 설정을 관리하고 전환
 - CI/CD
     - CI/CD 파이프라인을 통해 코드 변경 사항을 자동으로 빌드하고 테스트해 앱을 지속적으로 개발, 배포할 수 있도록 지원
+    
+
+**Fastfile**
+
+- fastlane의 내용을 작성하는 파일 이름.
+
+`fastlane hoge`
+
+- 프로세스 실행
+
+```ruby
+lane :hoge do
+	# todo
+end
+```
+
+- 프로세스 정의
+- `fastlane hoge`로 실행 가능.
+
+`desc “hoge”` 
+
+- 프로세스 설명 정의

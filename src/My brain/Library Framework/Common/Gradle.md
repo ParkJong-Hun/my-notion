@@ -119,3 +119,17 @@
     - Objective-C 프레임워크를 생성하고 구성.
     - **export**
         - 데이터나 모듈을 쓰기
+- **configurations**
+    - implemenatation이나 api로 추가한 라이브러리들
+- **KotlinMultiplatformExtension**
+    - KMP 모듈에 사용
+- **CommonExtension**
+    - Android App, Library, Dynamic Feature에 사용하는 IF
+- **targets.filterIsIstance<KotlinNativeTarget>()**
+    - 플랫폼OS를 추출
+- **publishLibraryVariants**
+    - 라이브러리 variants를 정의
+- **publishAndroidReleasePublicationToMavenRepository**
+    - publishing{}에 정의한 곳으로 릴리스 라이브러리를 공개
+- **publishAndroidDebugPublicationToMavenRepository**
+    - publishing{}에 정의한 곳으로 디버그 라이브러리를 공개

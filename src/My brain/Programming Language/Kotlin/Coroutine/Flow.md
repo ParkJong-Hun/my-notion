@@ -24,6 +24,12 @@
 
 - 구독자를 신경쓰지 않고 데이터를 계속 발행시키는 것.
 
+<aside>
+⚠️ Flow는 자신을 호출한 코루틴의 context를 그대로 가지게 된다. (**Context preservation**)
+호출한 곳과 다른 context를 사용할 때 `withContext`를 사용하면 `Flow invariant is violated`라는 에러가 발생하므로, `flowOn`을 사용해야 한다.
+
+</aside>
+
 ## 파생 Flow
 
 [StateFlow%20d586a489087b4534b323b21209e05ad2](StateFlow%20d586a489087b4534b323b21209e05ad2)
