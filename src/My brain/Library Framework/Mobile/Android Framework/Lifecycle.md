@@ -40,3 +40,7 @@ class MyObserver : DefaultLifecycleObserver {
 
 myLifecycleOwner.getLifecycle().addObserver(MyObserver())
 ```
+
+**repeatOnLifecycle**
+
+onCreate나 onViewCreated 같이 수명 주기가 초기화 되는 곳에서 어떠한 수명 주기에서 처리될 것을 한 번에 관리하기 위해 사용.

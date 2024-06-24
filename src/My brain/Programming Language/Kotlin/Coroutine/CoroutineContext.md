@@ -13,6 +13,7 @@
 
 - CorotuineContext의 싱글톤 요소.
 - 고유의 키를 가져서 이 것이 여러 코루틴을 구별 가능하도록 함.
+- Job, CoroutineDispatcher, CoroutineExceptionHandler, CoroutineName 등이 여기에 해당.
 
 **plus**
 

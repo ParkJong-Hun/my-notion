@@ -8,7 +8,7 @@
 
 [Kotlin%202%200%2042522e75a3ca4615b3f07e6b7934ea94](Kotlin%202%200%2042522e75a3ca4615b3f07e6b7934ea94)
 
-## Premitive Type
+## Primitive Type
 
 [String%20fb0cb56294464cfdb4b94e202416dede](String%20fb0cb56294464cfdb4b94e202416dede)
 
@@ -17,3 +17,7 @@
 [Kotlin%20reflection%20baa139909d7d4b0db467c17d861f923c](Kotlin%20reflection%20baa139909d7d4b0db467c17d861f923c)
 
 [Annotation%20a3ec72d31f484cb694a54fa0bd240618](Annotation%20a3ec72d31f484cb694a54fa0bd240618)
+
+[Context%20Parameter%20246bd87cccbc4845b4768365039ecdd6](Context%20Parameter%20246bd87cccbc4845b4768365039ecdd6)
+
+[Contract%20ca66e61e21d5409fb4d94f10d508e5d0](Contract%20ca66e61e21d5409fb4d94f10d508e5d0)
