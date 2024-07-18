@@ -7,6 +7,8 @@
 
 </aside>
 
+[PendingIntent%2060a26d0a021945f7b187f15f36a0fd66](PendingIntent%2060a26d0a021945f7b187f15f36a0fd66)
+
 ## **Action**
 
 행해지는 일반적인 액션.
