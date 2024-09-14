@@ -10,7 +10,7 @@ $ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## SSH-AGENT에 SSH 키 추가
 
-1. 백그라운드에서 ssh-agend 시작.
+1. 백그라운드에서 ssh-agent 시작.
 
 ```
 $ eval "$(ssh-agent -s)"
@@ -40,10 +40,18 @@ $ eval "$(ssh-agent -s)"
       IdentityFile ~/.ssh/id_ed25519
     ```
     
+    - Windows의 경우, `Start-Process -Verb runas powershell`로 관리자 모드 실행 이후 아래 커맨드 입력.
+    
+    ```jsx
+    Get-Service ssh-agent | Set-Service -StartupType Automatic -PassThru | Start-Service -PassThru | Select-Object -Property Name, StartType, Status
+    ```
+    
 2. ssh-agent에 SSH 프라이빗 키를 추가하고 키 집합에 암호를 저장. 다른 이름으로 키를 만들거나 이름이 다른 기존 키를 추가하는 경우 명령의 *id_ed25519* 를 프라이빗 키 파일의 이름으로 바꿈.
 
 ```
 $ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+
+윈도우즈의 경우 경로는 c:/Users/YOU/.ssh/id_ed25519
 ```
 
 1. SSH 퍼블릭 키를 클립보드에 복사. 
@@ -51,6 +59,8 @@ $ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ```
 $ pbcopy < ~/.ssh/id_ed25519.pub
   # Copies the contents of the id_ed25519.pub file to your clipboard
+  
+윈도우즈의 경우 cat c:/users/YOU/.ssh/id_ed25519.pub | clip
 ```
 
 1. Github - Settings - 새 SSH 키 또는 SSH 키 추가에서 붙여넣기.
