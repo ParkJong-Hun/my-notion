@@ -63,3 +63,5 @@
 [Google%20Maven%20Repository%200cc90bf0a3f8453088047a0dd44b5079](Google%20Maven%20Repository%200cc90bf0a3f8453088047a0dd44b5079)
 
 [Gradle%20Plugin%20Portal%20b45dbd0ebe97484aac18efb467361248](Gradle%20Plugin%20Portal%20b45dbd0ebe97484aac18efb467361248)
+
+[Spotless%20f84842659ce141a8880acc2044d163e9](Spotless%20f84842659ce141a8880acc2044d163e9)
