@@ -4,7 +4,7 @@
 
 [Android%20Framework%2025e1f029f015405f9a6dc5c35245e24d](Android%20Framework%2025e1f029f015405f9a6dc5c35245e24d)
 
-[XCFramework%200985823c9f4f417f8b312cf72b7f2c24](XCFramework%200985823c9f4f417f8b312cf72b7f2c24)
+[iOS%20Frameworks%200985823c9f4f417f8b312cf72b7f2c24](iOS%20Frameworks%200985823c9f4f417f8b312cf72b7f2c24)
 
 ## 크로스 플랫폼
 
