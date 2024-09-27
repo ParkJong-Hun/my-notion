@@ -77,6 +77,8 @@ KTS에서는 CommonExtension을 상속한 것을 사용.
     - **releaseImplementation**
         - 릴리스 빌드 구성에서만 필요한 의존성
         - 앱이 릴리스될 때는 사용되는 라이브러리를 추가할 때 사용
+    - **exclude**
+        - 종속성에서 특정 의존성을 제외
 - **framework**
     - Objective-C 프레임워크를 생성하고 구성.
     - **export**

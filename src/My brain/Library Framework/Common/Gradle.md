@@ -18,6 +18,8 @@
 
 [gradlew%20189a43508e0846abab00b1f1fabf14ec](gradlew%20189a43508e0846abab00b1f1fabf14ec)
 
+[gradle%20properties%208f88e2127e6c49c197e1f9199b76a567](gradle%20properties%208f88e2127e6c49c197e1f9199b76a567)
+
 [settings%20gradle%20de69007b181341808b48c1d87e8eb91b](settings%20gradle%20de69007b181341808b48c1d87e8eb91b)
 
 [build%20gradle%203bad9ce041704f999a983cacb1fffbbc](build%20gradle%203bad9ce041704f999a983cacb1fffbbc)
@@ -29,6 +31,8 @@
 [Build%20caching%209d12afdd2d6247419197f81da772d6a4](Build%20caching%209d12afdd2d6247419197f81da772d6a4)
 
 [Composite%20Build%200c74081d59374582b3ee75c68ebe11b0](Composite%20Build%200c74081d59374582b3ee75c68ebe11b0)
+
+[Gradle%20API%2010df37315c4480398c76d4811101c6e8](Gradle%20API%2010df37315c4480398c76d4811101c6e8)
 
 `--scan` 
 

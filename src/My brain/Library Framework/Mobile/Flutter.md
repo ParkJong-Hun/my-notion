@@ -39,6 +39,8 @@
 
 [SliverToBoxAdapter%20e3388360d65649c7a0e01f1d520ee1e1](SliverToBoxAdapter%20e3388360d65649c7a0e01f1d520ee1e1)
 
+[InheritedWidget%2010ef37315c44805bab0ccdff6220e2d2](InheritedWidget%2010ef37315c44805bab0ccdff6220e2d2)
+
 ### 써드 파티
 
 [riverpod%20b589c5bee8e44312b391ce785dc1e70a](riverpod%20b589c5bee8e44312b391ce785dc1e70a)
