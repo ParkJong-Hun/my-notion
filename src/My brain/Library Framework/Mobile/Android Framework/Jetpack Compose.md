@@ -1,7 +1,8 @@
 # Jetpack Compose
 
 <aside>
-💡 안드로이드 Jetpack Compose
+💡 안드로이드 Jetpack Compose.
+Canvas 위에서 동작함.
 
 </aside>
 
