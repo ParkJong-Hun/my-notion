@@ -12,3 +12,5 @@
 [Observer%20Pattern%200aea27eb758646ce8903ad6c2d5940f8](Observer%20Pattern%200aea27eb758646ce8903ad6c2d5940f8)
 
 [Repository%20Pattern%20d5da511290c64abab58bfc95aa6359b0](Repository%20Pattern%20d5da511290c64abab58bfc95aa6359b0)
+
+[Delegate%20Pattern%20126f37315c448053a9b4f72c546dfd03](Delegate%20Pattern%20126f37315c448053a9b4f72c546dfd03)
