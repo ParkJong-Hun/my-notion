@@ -26,6 +26,11 @@
 - floating point.
 - 웬만하면 계산 안정성을 위해 64가 좋음.
 
+**&str**
+
+- string slice(string literal).
+- 문자열을 담는 불변형 타입.
+
 <aside>
 ⚠️
 
@@ -37,6 +42,19 @@ u8으로 캐스팅 가능.
 </aside>
 
 ### Keyword
+
+**let**
+
+- 런타임 변수 선언.
+- 기본적으로 immutable.
+
+**const**
+
+- 컴파일 타임 상수 선언.
+
+**static**
+
+- 전역 변수 선언.
 
 **mut**
 
@@ -61,3 +79,10 @@ u8으로 캐스팅 가능.
 
 - debug print.
 - 문자열 안에 다른 타입의 type 이름이나 프로퍼티.
+
+**unsafe**
+
+- 플랫폼 의존적 코드나 메모리에 직접 접근 하는 코드의 wrapper.
+- 생 포인터에 역참조.
+- unsafe 함수, 메소드 호출.
+- mutable static에 접근, 수정.
