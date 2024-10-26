@@ -31,3 +31,12 @@ Android UI의 기본 구성 요소.
 **requestLayout**
 
 - onMeasure부터 다시 그림.
+
+**onTouchEvent, onClick**
+
+- 이벤트 캡처 이후 동작 처리.
+
+**onDetachedFromWindow**
+
+- 부모 뷰에서 화면이 뷰가 제거될 때.
+- 리소스나 리스너를 정리.
