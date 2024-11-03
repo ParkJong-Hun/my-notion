@@ -13,6 +13,8 @@
     - 함수 또는 생성자 파라미터에 default value가 설정되어 있으면 Compiler가 default value 만큼 오버로딩 함수를 만듦.
 - JvmStatic
     - companion object에서 만든 메소드는 실행시에 인스턴스화되므로 Java의 static 메소드는 아닌데, 이 것으로 Java의 Static처럼 사용 가능.
+- JvmField
+    - 속성에 대한 getter, setter를 생성하지 않고 Java처럼 직접 액세스.
 
 **Meta Annotation**
 
