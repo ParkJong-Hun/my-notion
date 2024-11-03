@@ -7,7 +7,7 @@ XCode에서 Framework란, XCode에서 사용하기 위해 만든 라이브러리
 
 </aside>
 
-### 라이브러리 타입
+### 라이브러리 링크 타입
 
 **Dynamic**
 

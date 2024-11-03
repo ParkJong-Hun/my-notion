@@ -31,6 +31,15 @@
 - string slice(string literal).
 - 문자열을 담는 불변형 타입.
 
+**Vec<>**
+
+- vector.
+- 사이즈 변경 가능한 배 타입.
+
+**tuple**
+
+- 여러 값을 하나의 단위로 묶어 표현할 수  있는 타입.
+
 <aside>
 ⚠️
 
@@ -60,6 +69,11 @@ u8으로 캐스팅 가능.
 
 - mutable variable.
 
+**&mut**
+
+- mutable reference.
+- 변경 가능하도록 참조를 전달.
+
 **{}**
 
 - display print.
@@ -86,3 +100,12 @@ u8으로 캐스팅 가능.
 - 생 포인터에 역참조.
 - unsafe 함수, 메소드 호출.
 - mutable static에 접근, 수정.
+
+**trait**
+
+- 인터페이스.
+- impl로 다른 타입으로서 사용할 수 있도록 구현 가능.
+
+**match**
+
+- 스위치문.
