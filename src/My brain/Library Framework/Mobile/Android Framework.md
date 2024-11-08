@@ -12,6 +12,8 @@
 
 [Android%20OS%20Version%20Release%20notes%20114f37315c4480ea9eccf87c3c6f1537](Android%20OS%20Version%20Release%20notes%20114f37315c4480ea9eccf87c3c6f1537)
 
+[Android%20Stroage%20138f37315c4480e19cc7c2233283c1f0](Android%20Stroage%20138f37315c4480e19cc7c2233283c1f0)
+
 **사용하는 프로그래밍 언어**
 
 [Kotlin%20d3702579c4774777b0e880ce2ebbdae8](Kotlin%20d3702579c4774777b0e880ce2ebbdae8)
