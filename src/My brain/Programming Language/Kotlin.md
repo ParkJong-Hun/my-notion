@@ -10,6 +10,8 @@
 
 [Dokka%20f98473abcd7749a1985b787cc81c29db](Dokka%20f98473abcd7749a1985b787cc81c29db)
 
+[Kotlin%20JS%20139f37315c4480fabd0fe80b39d996cd](Kotlin%20JS%20139f37315c4480fabd0fe80b39d996cd)
+
 ## Primitive Type
 
 [String%20fb0cb56294464cfdb4b94e202416dede](String%20fb0cb56294464cfdb4b94e202416dede)

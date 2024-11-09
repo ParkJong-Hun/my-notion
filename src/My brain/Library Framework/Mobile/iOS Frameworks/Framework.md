@@ -20,3 +20,7 @@ XCode에서 Framework란, XCode에서 사용하기 위해 만든 라이브러리
 **Embed**
 
 - 앱이 패키징될 때 결과물에 포함됨.
+
+[XCFramework%20101f37315c4480fc8101ccfab12f6876](XCFramework%20101f37315c4480fc8101ccfab12f6876)
+
+[Umbrella%20Framework%20139f37315c4480b49e45e4d88869d67a](Umbrella%20Framework%20139f37315c4480b49e45e4d88869d67a)
