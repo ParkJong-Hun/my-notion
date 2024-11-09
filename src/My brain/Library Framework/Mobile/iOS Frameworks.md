@@ -7,8 +7,6 @@
 
 [Framework%20101f37315c4480b8b9e8eb859390a10d](Framework%20101f37315c4480b8b9e8eb859390a10d)
 
-[XCFramework%20101f37315c4480fc8101ccfab12f6876](XCFramework%20101f37315c4480fc8101ccfab12f6876)
-
 **사용하는 프로그래밍 언어**
 
 [Swift%209eebd2ca15aa466aaa6e9c5f0957d611](Swift%209eebd2ca15aa466aaa6e9c5f0957d611)
