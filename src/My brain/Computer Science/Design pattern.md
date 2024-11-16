@@ -14,3 +14,5 @@
 [Repository%20Pattern%20d5da511290c64abab58bfc95aa6359b0](Repository%20Pattern%20d5da511290c64abab58bfc95aa6359b0)
 
 [Delegate%20Pattern%20126f37315c448053a9b4f72c546dfd03](Delegate%20Pattern%20126f37315c448053a9b4f72c546dfd03)
+
+[Strangler%20Fig%20Pattern%2013cf37315c4480c5ba70d0aed565fad4](Strangler%20Fig%20Pattern%2013cf37315c4480c5ba70d0aed565fad4)

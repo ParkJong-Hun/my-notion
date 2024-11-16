@@ -14,6 +14,8 @@
 4. 다중 언어, 플랫폼 지원: C++, Swift, Python 등 다양한 언어와 플랫폼 지원.
 5. 성능 최적화: 병렬 빌드, 캐시, 증분 빌드 등과 같은 성능 최적화 기능을 제공해 빌드 시간을 줄이고 더 빠르게 개발 가능.
 
+[Build%20Lifecycle%2013ef37315c448006bd8eea7b12afcd27](Build%20Lifecycle%2013ef37315c448006bd8eea7b12afcd27)
+
 [Gradle%20Plugin%20645a0c1aac0e462c8afcdf76ed4ca3e5](Gradle%20Plugin%20645a0c1aac0e462c8afcdf76ed4ca3e5)
 
 [gradlew%20189a43508e0846abab00b1f1fabf14ec](gradlew%20189a43508e0846abab00b1f1fabf14ec)
@@ -25,6 +27,8 @@
 [build%20gradle%203bad9ce041704f999a983cacb1fffbbc](build%20gradle%203bad9ce041704f999a983cacb1fffbbc)
 
 [Gradle%20Directory%20f3dff41b183d4d49b995d0d0d1450843](Gradle%20Directory%20f3dff41b183d4d49b995d0d0d1450843)
+
+[task%2013ef37315c4480ef9e37f8717748f577](task%2013ef37315c4480ef9e37f8717748f577)
 
 [Incremental%20build%20f868110d0cd14a26895e534e0862e217](Incremental%20build%20f868110d0cd14a26895e534e0862e217)
 
