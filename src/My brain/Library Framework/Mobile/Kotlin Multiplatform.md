@@ -27,6 +27,8 @@ KMM을 사용하면 코드의 재사용성이 향상되고 개발 시간이 단�
 
 [BuildKonfig%20d74b6015badd4a8fae491ef1b9c240fc](BuildKonfig%20d74b6015badd4a8fae491ef1b9c240fc)
 
+[CrashKiOS%2013ef37315c4480138299cef3c25b7a48](CrashKiOS%2013ef37315c4480138299cef3c25b7a48)
+
 ### iOS에 종속성 추가 방법
 
 **직접 통합**

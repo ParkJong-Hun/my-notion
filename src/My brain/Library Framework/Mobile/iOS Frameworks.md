@@ -7,6 +7,10 @@
 
 [Framework%20101f37315c4480b8b9e8eb859390a10d](Framework%20101f37315c4480b8b9e8eb859390a10d)
 
+[Privacy%20Manifest%2013ef37315c448029bc06f7b58d8b0f10](Privacy%20Manifest%2013ef37315c448029bc06f7b58d8b0f10)
+
+[Library%2013ff37315c448013bb09fec225f9a0c6](Library%2013ff37315c448013bb09fec225f9a0c6)
+
 **사용하는 프로그래밍 언어**
 
 [Swift%209eebd2ca15aa466aaa6e9c5f0957d611](Swift%209eebd2ca15aa466aaa6e9c5f0957d611)
