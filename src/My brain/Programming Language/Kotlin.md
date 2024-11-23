@@ -12,6 +12,8 @@
 
 [Kotlin%20JS%20139f37315c4480fabd0fe80b39d996cd](Kotlin%20JS%20139f37315c4480fabd0fe80b39d996cd)
 
+[Kotlin%20Version%20144f37315c4480c5b5c7c97cbcd749d6](Kotlin%20Version%20144f37315c4480c5b5c7c97cbcd749d6)
+
 ## Primitive Type
 
 [String%20fb0cb56294464cfdb4b94e202416dede](String%20fb0cb56294464cfdb4b94e202416dede)

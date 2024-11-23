@@ -46,3 +46,7 @@
 - 공유 플러그인.
 - JAR가 제작되고 게시.
 - 여러 빌드에서 사용할 수 있으며 다른 사람과 공유할 수 있음.
+
+[AndroidGradlePlugin%20144f37315c4480a9a9cbe812e43f10ed](AndroidGradlePlugin%20144f37315c4480a9a9cbe812e43f10ed)
+
+[KotlinGradlePlugin%20144f37315c4480c382d4e9ecead275f8](KotlinGradlePlugin%20144f37315c4480c382d4e9ecead275f8)
