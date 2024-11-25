@@ -1,4 +1,4 @@
-# iOS Frameworks
+# Cocoa Touch
 
 <aside>
 💡 iOS, macOS, watchOS 등 개발을 위해 도입한 새로운 프레임워크.
@@ -31,6 +31,12 @@
 
 [Foundation%20148f37315c448019991bc934d1a5d26a](Foundation%20148f37315c448019991bc934d1a5d26a)
 
+[CoreData%20149f37315c4480438b3ad24168d1a368](CoreData%20149f37315c4480438b3ad24168d1a368)
+
+[XCTest%20149f37315c4480659e71e3ffec34223e](XCTest%20149f37315c4480659e71e3ffec34223e)
+
+[APNs%20149f37315c448048b3b6fe68eaa8bad4](APNs%20149f37315c448048b3b6fe68eaa8bad4)
+
 ### 패키지
 
 [Cocoapods%205dd89fb2907a4769bd745141faae5f4a](Cocoapods%205dd89fb2907a4769bd745141faae5f4a)
@@ -60,6 +66,8 @@
 [Swift%20Concurrency%20136f37315c4480909cb6c2ef5fab9758](Swift%20Concurrency%20136f37315c4480909cb6c2ef5fab9758)
 
 [Combine%20148f37315c44804cb58fd727d39a28a4](Combine%20148f37315c44804cb58fd727d39a28a4)
+
+[Alamofire%20149f37315c44805eb143e27a13d5636b](Alamofire%20149f37315c44805eb143e27a13d5636b)
 
 ### 팁
 
