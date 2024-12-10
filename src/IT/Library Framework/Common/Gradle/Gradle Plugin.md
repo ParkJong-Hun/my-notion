@@ -50,3 +50,5 @@
 [AndroidGradlePlugin%20144f37315c4480a9a9cbe812e43f10ed](AndroidGradlePlugin%20144f37315c4480a9a9cbe812e43f10ed)
 
 [KotlinGradlePlugin%20144f37315c4480c382d4e9ecead275f8](KotlinGradlePlugin%20144f37315c4480c382d4e9ecead275f8)
+
+[KotlinDSL%20158f37315c44803e980afb6d0956a4a5](KotlinDSL%20158f37315c44803e980afb6d0956a4a5)

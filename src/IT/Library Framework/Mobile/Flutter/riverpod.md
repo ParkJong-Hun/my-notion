@@ -39,6 +39,10 @@ RiverpodGenerator으로 생성됨.
 
 보통 가장 최상단 위젯을 래핑.
 
+**StateNotifier**
+
+ChangeNotifier와 비슷하지만, 더 정교하고 강력한 상태 관리 기능 제공.
+
 ### 부수 작용
 
 **hogeNotifier**

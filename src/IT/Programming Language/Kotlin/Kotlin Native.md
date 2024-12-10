@@ -19,3 +19,13 @@ LLVM 프레임워크와 함께 작동하여 네이티브 코드로 컴파일.
 **platform.posix**
 
 - POSIX 환경에서 제공되는 기능(파일 시스템, 네트워크, 프로세스 관리)을 Kotlin에서 사용할 수 있게 해주는 모듈.
+
+**shared XOR mutable 제약**
+
+- 동시 처리에 문제가 발생하는 shared와 mutable를 동시에 허가하지 않는 제약.
+    - Rust 등에서도 사용됨.
+- 이 제약을 만족하기 위해 frozen 상태 도입.
+
+**frozen**
+
+- 인스턴스가 immutable임을 보증.
