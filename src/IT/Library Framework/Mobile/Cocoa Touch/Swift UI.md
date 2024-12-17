@@ -1,5 +1,11 @@
 # Swift UI
 
+**@main**
+
+앱의 진입점.
+
+AppDelegate를 대신함.
+
 **body**
 
 뷰 내용.
@@ -33,3 +39,7 @@
 **@Environment**
 
 시스템에서 제공하는 환경 정보 주입에 사용.
+
+[UIViewControllerRepresentable%2015ef37315c4480248dffcab7d256eeaf](UIViewControllerRepresentable%2015ef37315c4480248dffcab7d256eeaf)
+
+[UIHostingController%2015ef37315c4480f58feec7548ac52122](UIHostingController%2015ef37315c4480f58feec7548ac52122)
