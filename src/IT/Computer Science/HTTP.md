@@ -66,3 +66,5 @@
 
 - QUIC 기반으로 나온 새로운 HTTP 메이저 버전.
 - TCP가 아닌 UDP를 이용해 HOL Blocking을 해결한 네트워크 통신 프로토콜.
+
+[HTTP%20Status%20167f37315c4480c2aca7d48cfa1b8572](HTTP%20Status%20167f37315c4480c2aca7d48cfa1b8572)
