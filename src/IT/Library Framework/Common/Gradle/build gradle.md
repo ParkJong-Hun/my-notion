@@ -11,6 +11,13 @@ KTS에서는 CommonExtension을 상속한 것을 사용.
 
 </aside>
 
+### 빌드 스크립트 단계
+
+1. Evaluation phase(평가 단계)
+    1. 빌드 스크립트를 읽고, 프로젝트와 태스크를 정의.
+2. Execution phase(실행 단계)
+    1. 정의된 태스크를 실행.
+
 - **plugins**
     - Gradle 플러그인을 적용하고 관리.
     - 플러그인을 추가하고 구성.
@@ -97,3 +104,6 @@ KTS에서는 CommonExtension을 상속한 것을 사용.
     - publishing{}에 정의한 곳으로 릴리스 라이브러리를 공개
 - **publishAndroidDebugPublicationToMavenRepository**
     - publishing{}에 정의한 곳으로 디버그 라이브러리를 공개
+
+- **afterEvalulate**
+    - 빌드 스크립트 평가 단계가 완료된 후 특정 작업을 수행하기 위해 사용하는 콜백.
