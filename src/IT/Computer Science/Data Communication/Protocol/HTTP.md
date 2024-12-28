@@ -68,3 +68,5 @@
 - TCP가 아닌 UDP를 이용해 HOL Blocking을 해결한 네트워크 통신 프로토콜.
 
 [HTTP%20Status%20167f37315c4480c2aca7d48cfa1b8572](HTTP%20Status%20167f37315c4480c2aca7d48cfa1b8572)
+
+[HTTPS%200af386f99ca241e9bde0e0545a127e56](HTTPS%200af386f99ca241e9bde0e0545a127e56)
