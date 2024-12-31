@@ -119,8 +119,7 @@ func extractAndReplaceSrc() {
 		return
 	}
 
-	var tempExtract = "IT"
-	extractPath := filepath.Join(rootDir, tempExtract)
+	extractPath := filepath.Join(rootDir, "temp_extract")
 	err = unzip(zipFilePath, extractPath)
 	if err != nil {
 		fmt.Println("Error extracting zip file:", err)
@@ -134,36 +133,9 @@ func extractAndReplaceSrc() {
 			fmt.Println("Error removing existing src folder:", err)
 			return
 		}
-
-		err = os.Mkdir(srcPath, os.ModePerm)
-
-		if err != nil {
-			fmt.Println("Error creating src folder:", err)
-			return
-		}
 	}
 
-	extractedFolders, err := os.ReadDir(extractPath)
-	if err != nil {
-		fmt.Println("Error reading extracted folder:", err)
-		return
-	}
-
-	var extractedFolderPath string
-	for _, folder := range extractedFolders {
-		if folder.IsDir() {
-			extractedFolderPath = filepath.Join(extractPath, folder.Name())
-			break
-		}
-	}
-
-	if extractedFolderPath == "" {
-		fmt.Println("No folders found in the extracted zip file.")
-		return
-	}
-
-	targetPath := filepath.Join(srcPath, tempExtract)
-	err = os.Rename(extractedFolderPath, targetPath)
+	err = os.Rename(extractPath, srcPath)
 	if err != nil {
 		fmt.Println("Error moving extracted folder to src:", err)
 		return
