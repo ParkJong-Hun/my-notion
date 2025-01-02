@@ -59,6 +59,10 @@
 
 **continuation**
 
+코루틴의 핵심.
+
+현재 코루틴의 실행 상태를 나타내며, 중단 이후 실행을 재개하기 위해 사용됨.
+
 return하지 않고 대신에 지속적으로 이어나갈 새 context.
 
 [Flow%207ff3904dbbff41fa849c387ffbed116b](Flow%207ff3904dbbff41fa849c387ffbed116b)
