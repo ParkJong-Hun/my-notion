@@ -32,3 +32,5 @@
 [OAuth%202%200%208aa02feaa5364cfb9e465b0c0a161e9e](OAuth%202%200%208aa02feaa5364cfb9e465b0c0a161e9e)
 
 [OAuth%201e3c7b85ddcd4a7eb2ab4e0759459a31](OAuth%201e3c7b85ddcd4a7eb2ab4e0759459a31)
+
+[Basic%20Authorization%2016ff37315c44805dbfc2e86b48fe0aa0](Basic%20Authorization%2016ff37315c44805dbfc2e86b48fe0aa0)
