@@ -50,6 +50,27 @@ u8으로 캐스팅 가능.
 
 </aside>
 
+**HashMap**
+
+- map type.
+
+**BTreeMap**
+
+- 순서가 있는 map type.
+
+**HashSet**
+
+- set type.
+
+**BinaryHeap**
+
+- 2진 Heap Type.
+
+**VecDeque**
+
+- 양쪽 끝에서 항목 추가 가능.
+- 기본적으로 Vec보다 성능이 안좋음.
+
 ### Keyword
 
 **let**
@@ -139,3 +160,7 @@ u8으로 캐스팅 가능.
 **where**
 
 - 복잡한 generics 선언.
+
+**?**
+
+- 매치 가능하면 매치, 아니면 return Error.
