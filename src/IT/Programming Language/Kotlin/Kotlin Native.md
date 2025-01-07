@@ -29,3 +29,14 @@ LLVM 프레임워크와 함께 작동하여 네이티브 코드로 컴파일.
 **frozen**
 
 - 인스턴스가 immutable임을 보증.
+
+**.klib**
+
+- Koltin 다중 플랫폼 라이브러리를 빌드하고 배포하기 위한 라이브러리 파일.
+- 해당 파일이 각 플랫폼에서 kexe나 framework 등 네이티브 바이너리로 변환되어질 때 사용.
+
+**.kexe**
+
+- kt파일에 klib를 링크해서 만든 실행 파일.
+
+[Kotlin%20Native%20Command%20173f37315c448002a5e3cfe092057311](Kotlin%20Native%20Command%20173f37315c448002a5e3cfe092057311)

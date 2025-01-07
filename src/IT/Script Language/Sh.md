@@ -1,4 +1,15 @@
-# Unix Shell
+# Sh
+
+<aside>
+💡
+
+Bourne Shell.
+
+Unix 기본 쉘.
+POSIX 표준 준수.
+기능 제한적
+
+</aside>
 
 **cat**
 
