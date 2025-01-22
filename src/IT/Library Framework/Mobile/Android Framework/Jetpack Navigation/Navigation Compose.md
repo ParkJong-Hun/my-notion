@@ -18,3 +18,13 @@
 - 화면 이동시, popUpTo로 해당 화면으로 이전에 saveState로 저장한 백스택에서 삭제한 화면들의 상태를 복원해서 현재 백스택의 상단에 추가.
     - popUpTo를 했을 때 inclusive 설정에 따라 사용 가능한 화면이 제한됨.
     - 1회 밖에 할 수 없음.
+
+### **NavDeepLinkRequest**
+
+**action**
+
+- URI 대신 주로 암시적 인텐트 지정
+
+**mimeType**
+
+- 미디어 타입 지정
