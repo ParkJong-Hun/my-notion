@@ -21,3 +21,7 @@
 - 사용자 인증 정보 필드를 표시하는 UI의 속성.
 - Credential Manager나 서드 파티 사용자 인증 정보 제공업체와 호환되는 것임을 의미.
 - 자동 완성 서비스를 더 좋게 지원.
+
+ge**tCredential**
+
+- **GetCredentialRequest**을 이용해 UI를 표시하고, 결과를 반환.
