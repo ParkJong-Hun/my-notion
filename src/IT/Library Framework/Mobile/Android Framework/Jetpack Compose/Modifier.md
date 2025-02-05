@@ -41,3 +41,5 @@ tryAwaitRelease() 이후의 처리는 탭을 한 후 종료되기전에 실행.
     - measure에 사용됨.
 - placeable
     - 화면에 래핑된 컴포넌트를 place로 배치 가능.
+
+[semantics%20191f37315c4480b3a22cf738a3acd979](semantics%20191f37315c4480b3a22cf738a3acd979)
