@@ -2,12 +2,19 @@
 
 <aside>
 💡 리액티브 캐싱, 데이터 바인딩 프레임워크.
+Provider를 더 개선한 것.
 
 </aside>
 
 ### 기본
 
 **Notifier**
+
+StateNotifier를 개선한 클래스로 riverpod 2.0부터 제공.
+
+build()로 객체 초기화.
+
+제네릭 작성 필요 없음.
 
 어떠한 상태를 보유.
 
@@ -41,7 +48,9 @@ RiverpodGenerator으로 생성됨.
 
 **StateNotifier**
 
-ChangeNotifier와 비슷하지만, 더 정교하고 강력한 상태 관리 기능 제공.
+ValueNotifier와 비슷하지만, 더 정교하고 강력한 상태 관리 기능 제공.
+
+불변 상태를 권장.
 
 ### 부수 작용
 
