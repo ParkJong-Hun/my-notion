@@ -27,6 +27,8 @@
 
 ### 기초
 
+[UIApplication%20197f37315c4480459d72c1d21f2da562](UIApplication%20197f37315c4480459d72c1d21f2da562)
+
 [Universal%20Link%20b3f89f2d45a049a2ae6dc7980aef990d](Universal%20Link%20b3f89f2d45a049a2ae6dc7980aef990d)
 
 [KeyChain%20f77bfc24e13b4439bd13a28a4f81a6fa](KeyChain%20f77bfc24e13b4439bd13a28a4f81a6fa)
@@ -46,6 +48,12 @@
 [SFSafariViewController%207a414bd2a29f4bceab3e826362b17d8b](SFSafariViewController%207a414bd2a29f4bceab3e826362b17d8b)
 
 [Background%20Fetch%20153f37315c44803cb66dc12b83841469](Background%20Fetch%20153f37315c44803cb66dc12b83841469)
+
+[UIWindow%20197f37315c4480d49a07c123e7cee1a1](UIWindow%20197f37315c4480d49a07c123e7cee1a1)
+
+[UIScene%20197f37315c4480a38be6f714a1d6ecb8](UIScene%20197f37315c4480a38be6f714a1d6ecb8)
+
+[NavigationStack%20197f37315c44805ebfe5c8d914699510](NavigationStack%20197f37315c44805ebfe5c8d914699510)
 
 ### 패키지
 
