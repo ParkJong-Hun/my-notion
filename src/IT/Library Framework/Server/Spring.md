@@ -1,6 +1,55 @@
 # Spring
 
 <aside>
-💡 자바 기반 오픈 소스 애플리케이션 프레임워크
+💡 자바 기반 오픈 소스 애플리케이션 프레임워크.
+WAR 파일로 배포.
 
 </aside>
+
+[Spring%20boot%2055f79f44cf844e9392ecae418982f572](Spring%20boot%2055f79f44cf844e9392ecae418982f572)
+
+### 주요 단위
+
+[@Controller%20198f37315c448025a51ee3ad6d39408d](@Controller%20198f37315c448025a51ee3ad6d39408d)
+
+[@Service%20198f37315c448085be7ed42abe10fc23](@Service%20198f37315c448085be7ed42abe10fc23)
+
+[@Repository%20198f37315c4480d1b65dfb5177ae8e1b](@Repository%20198f37315c4480d1b65dfb5177ae8e1b)
+
+### AOP
+
+[@Aspect%20198f37315c44801fbbcfc28e4846f081](@Aspect%20198f37315c44801fbbcfc28e4846f081)
+
+### DI
+
+[@Bean%20198f37315c44804db631c75882acf9e4](@Bean%20198f37315c44804db631c75882acf9e4)
+
+[@Configuration%20198f37315c4480109b7ecb74ff5e4f4c](@Configuration%20198f37315c4480109b7ecb74ff5e4f4c)
+
+[@Component%20198f37315c4480d6be62f9fbc7d1985a](@Component%20198f37315c4480d6be62f9fbc7d1985a)
+
+[@ComponentScan%20198f37315c4480338b22ec3498799011](@ComponentScan%20198f37315c4480338b22ec3498799011)
+
+[@Autowired%20198f37315c44807aba65c05bf9dcdd8b](@Autowired%20198f37315c44807aba65c05bf9dcdd8b)
+
+[@Qualifier%20198f37315c448070a733d69050188364](@Qualifier%20198f37315c448070a733d69050188364)
+
+[@Resource%20198f37315c4480b0accbd5bc5785977c](@Resource%20198f37315c4480b0accbd5bc5785977c)
+
+### Test
+
+[@SpringBootTest%20198f37315c448050ac8ee62672dd6756](@SpringBootTest%20198f37315c448050ac8ee62672dd6756)
+
+### 기타 어노테이션
+
+[@Value%20198f37315c4480a2b3c0d8e80834542d](@Value%20198f37315c4480a2b3c0d8e80834542d)
+
+[@PropertySource%20198f37315c4480bdaf28cef213e1e1bf](@PropertySource%20198f37315c4480bdaf28cef213e1e1bf)
+
+[@EnableScheduling%20198f37315c4480e0a310d726e8fc494c](@EnableScheduling%20198f37315c4480e0a310d726e8fc494c)
+
+[@Scheduled%20198f37315c4480cfb170cdd35b2493e0](@Scheduled%20198f37315c4480cfb170cdd35b2493e0)
+
+[@EnableAsync%20198f37315c4480f6a66bf95dca28cb2d](@EnableAsync%20198f37315c4480f6a66bf95dca28cb2d)
+
+[@Async%20198f37315c4480209ec5cfec369abbb5](@Async%20198f37315c4480209ec5cfec369abbb5)

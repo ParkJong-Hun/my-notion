@@ -1,0 +1,32 @@
+# @Controller
+
+<aside>
+💡
+
+MVC 패턴에서 **컨트롤러 역할**을 하는 클래스 (Spring MVC).
+
+</aside>
+
+[@RestController%20198f37315c4480f1bfaed5b382985460](@RestController%20198f37315c4480f1bfaed5b382985460)
+
+[@RequestMapping%20198f37315c4480b1a4d1e468ce4498be](@RequestMapping%20198f37315c4480b1a4d1e468ce4498be)
+
+[@GetMapping%20198f37315c4480c48c9ce8f2e92fdae0](@GetMapping%20198f37315c4480c48c9ce8f2e92fdae0)
+
+[@PostMapping%20198f37315c4480768fbdfe197e77b496](@PostMapping%20198f37315c4480768fbdfe197e77b496)
+
+[@PutMapping%20198f37315c44809e8222e516abd714b3](@PutMapping%20198f37315c44809e8222e516abd714b3)
+
+[@DeleteMapping%20198f37315c448010b03fcb0662731721](@DeleteMapping%20198f37315c448010b03fcb0662731721)
+
+[@RequestParam%20198f37315c44804e93dec44814762246](@RequestParam%20198f37315c44804e93dec44814762246)
+
+[@PathVariable%20198f37315c4480828943cbf8ea1e7469](@PathVariable%20198f37315c4480828943cbf8ea1e7469)
+
+[@RequestBody%20198f37315c44807b800acdf189964689](@RequestBody%20198f37315c44807b800acdf189964689)
+
+[@ResponseBody%20198f37315c4480e69cffcdd48d5aa615](@ResponseBody%20198f37315c4480e69cffcdd48d5aa615)
+
+[@ModelAttribute%20198f37315c4480168ec5ea56e70f7e69](@ModelAttribute%20198f37315c4480168ec5ea56e70f7e69)
+
+[@SessionAttributes%20198f37315c4480479918fe342f8eee0f](@SessionAttributes%20198f37315c4480479918fe342f8eee0f)
