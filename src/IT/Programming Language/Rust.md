@@ -31,11 +31,6 @@
 - string slice(string literal).
 - 문자열을 담는 불변형 타입.
 
-**Vec<>**
-
-- vector.
-- 사이즈 변경 가능한 배열 타입.
-
 **tuple**
 
 - 여러 값을 하나의 단위로 묶어 표현할 수  있는 타입.
@@ -49,27 +44,6 @@ u8으로 캐스팅 가능.
 숫자 뒤에 u8 등 타입을 기입하면 해당 타입으로 인식됨.
 
 </aside>
-
-**HashMap**
-
-- map type.
-
-**BTreeMap**
-
-- 순서가 있는 map type.
-
-**HashSet**
-
-- set type.
-
-**BinaryHeap**
-
-- 2진 Heap Type.
-
-**VecDeque**
-
-- 양쪽 끝에서 항목 추가 가능.
-- 기본적으로 Vec보다 성능이 안좋음.
 
 ### Keyword
 
@@ -174,6 +148,29 @@ u8으로 캐스팅 가능.
 
 - 클로저.
 
+**dbg!**
+
+- debug quick print.
+- 디버깅용 프린트.
+
+**‘라이프타임이름**
+
+- 라이프타임.
+- 이미 free된 참조를 이용하려고 하는 after use 문제를 해결하기 위해 등장한 패러다임.
+- 함수에서 선언한 라이프타임을 참조(&)에서 사용함.
+- **‘static**
+    - 프로그램 전체의 라이프타임.
+
+**mod**
+
+- module.
+- mod이름::내부struct 식으로 사용 가능.
+
+**pub**
+
+- public.
+- module 내의 로직을 외부에 노출.
+
 ### Trait
 
 **AsRef<T>**
@@ -185,11 +182,86 @@ u8으로 캐스팅 가능.
 
 - next를 실행할 수 있는 컬렉션.
 
+### Struct
+
+**String**
+
+- 문자열.
+
+**Vec<>**
+
+- vector.
+- 사이즈 변경 가능한 배열 타입.
+
+**HashMap**
+
+- map type.
+
+**BTreeMap**
+
+- 순서가 있는 map type.
+
+**HashSet**
+
+- set type.
+
+**BinaryHeap**
+
+- 2진 Heap Type.
+
+**VecDeque**
+
+- 양쪽 끝에서 항목 추가 가능.
+- 기본적으로 Vec보다 성능이 안좋음.
+
+**Cell**
+
+- 내부에서 가지는 값을 변경할 수 있도록하는 구조체.
+- 일반적인 Cell은 thread safe하지 않음.
+
+**RefCell**
+
+- 값을 직접 복사(get, set)하지 않고, 런타임에서 borrow를 체크(Ref/RefMut)하는 Cell.
+- get할 때 Ref 혹은 RefMut으로만 접근 가능.
+- set할 때 borrow_mut()을 사용해서 참조 생성 후 값을 변경해야 함.
+    - borrow (&)은 여러 번 사용 가능.
+        - 불변 참조이므로
+    - borrow_mut(&mut)은 한 번만 가능.
+        - 가변 참조이므로
+        - 여러번 가변 참조를 생성하면 런타임 에러(패닉)이 발생.
+        - borrow가 있는데, borrow_mut을 생성하면 런타임 패닉 발생.
+- 주로 String이나 Vec<T> 같은 복사 불가능한 데이터를 내부적으로 변경할 때 사용.
+
+<aside>
+⚠️
+
+빌림에 이런 규칙이 있는 이유는, 데이터 경쟁과 메모리 안전성을 보장하기 위해.
+
+</aside>
+
+**Rc**
+
+- Reference counting.
+- 스마트 포인터.
+- 일반 clone과 다르게 값을 복사하는 것이 아닌, 참조 횟수만 증가해 성능에 영향 없음.
+- 여러 Rc 인스턴스가 같은 데이터를 가리킬 수 있음(읽기 전용이므로).
+- 내부적으로 참조 횟수를 추적해, 마지막 Rc가 드롭될 때 데이터가 해제됨.
+- 단일 스레드에서만 사용 가능.
+
 **Method**
 
-- ok
-    - Ok(값) 혹은 Error(값)을 반환
-- ok_or
-    - Ok(값) 혹은 Error(지정한 값)을 반환
-- and_then
-    - also 같은 것
+**ok**
+
+- Ok(값) 혹은 Error(값)을 반환
+
+**ok_or**
+
+- Ok(값) 혹은 Error(지정한 값)을 반환
+
+**and_then**
+
+- also 같은 것
+
+**drop**
+
+- Rc 객체를 하나 더 이상 사용하지 않음을 의미.
