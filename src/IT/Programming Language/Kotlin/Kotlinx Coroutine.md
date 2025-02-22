@@ -1,4 +1,4 @@
-# Coroutine
+# Kotlinx Coroutine
 
 <aside>
 💡 비동기 프로그래밍을 위한 라이브러리.

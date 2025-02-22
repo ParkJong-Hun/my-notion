@@ -30,6 +30,8 @@ Canvas 위에서 동작함.
 
 [BoxWithConstraints%20b5acb5fa92da4219a7a45760b5242d22](BoxWithConstraints%20b5acb5fa92da4219a7a45760b5242d22)
 
+[LocalRetainedStateRegistry%201a2f37315c4480b6a76edad0f90a98c0](LocalRetainedStateRegistry%201a2f37315c4480b6a76edad0f90a98c0)
+
 ## 서드 파티 라이브러리
 
 [Material%2009e6d53bf04346cd8aac22e41e61e3cb](Material%2009e6d53bf04346cd8aac22e41e61e3cb)
