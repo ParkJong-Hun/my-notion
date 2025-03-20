@@ -10,3 +10,5 @@ AI가 주어진 데이터를 학습해 특정 작업을 수행할 수 있도록 
 [Deep%20Learning%20Model%20199f37315c448087b538fde039323d72](Deep%20Learning%20Model%20199f37315c448087b538fde039323d72)
 
 [Machine%20Learning%20Model%20199f37315c4480f9a935e80befd42e14](Machine%20Learning%20Model%20199f37315c4480f9a935e80befd42e14)
+
+[Google%20Vertex%20AI%201b9f37315c44805db7f4ed9204064e2d](Google%20Vertex%20AI%201b9f37315c44805db7f4ed9204064e2d)
