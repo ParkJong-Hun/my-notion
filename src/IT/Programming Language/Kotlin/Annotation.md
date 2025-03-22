@@ -15,6 +15,8 @@
     - companion object에서 만든 메소드는 실행시에 인스턴스화되므로 Java의 static 메소드는 아닌데, 이 것으로 Java의 Static처럼 사용 가능.
 - JvmField
     - 속성에 대한 getter, setter를 생성하지 않고 Java처럼 직접 액세스.
+- PublishedApi
+    - 일반적으로는 internal이지만, inline 함수 내에서 사용되기 위해서 설정.
 
 **Meta Annotation**
 
@@ -34,6 +36,8 @@
     - 한 요소에 중복 사용될 수 있는지
 - MustBeDocumented
     - Generated Documentation에 해당 Annotation도 포함될 수 있는지
+- DslMarker
+    - 암묵적 외부 수신자 참조를 방지하여 안전한 DSL을 만들기 위해 사용
 
 **Custom Annotation**
 

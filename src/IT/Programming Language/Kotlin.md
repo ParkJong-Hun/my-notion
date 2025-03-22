@@ -14,6 +14,8 @@
 
 [Kotlin%20Version%20144f37315c4480c5b5c7c97cbcd749d6](Kotlin%20Version%20144f37315c4480c5b5c7c97cbcd749d6)
 
+[stdlib%201bef37315c44808faa2cdfc9d36fc484](stdlib%201bef37315c44808faa2cdfc9d36fc484)
+
 ## Primitive Type
 
 [String%20fb0cb56294464cfdb4b94e202416dede](String%20fb0cb56294464cfdb4b94e202416dede)
@@ -31,6 +33,8 @@
 [Context%20Parameter%20246bd87cccbc4845b4768365039ecdd6](Context%20Parameter%20246bd87cccbc4845b4768365039ecdd6)
 
 [Contract%20ca66e61e21d5409fb4d94f10d508e5d0](Contract%20ca66e61e21d5409fb4d94f10d508e5d0)
+
+[Collection%20vs%20Sequence%201bef37315c4480c48df5e7cf7ca6dd34](Collection%20vs%20Sequence%201bef37315c4480c48df5e7cf7ca6dd34)
 
 ### Default imports
 
