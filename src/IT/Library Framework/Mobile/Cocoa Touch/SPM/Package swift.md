@@ -9,4 +9,6 @@
 
 Cocoapod의 Podfile에 해당하는 파일.
 
+XCFramework를 ZIP으로 아카이브해서 업로드해야 함.(S3, Maven, Github Releases 등)
+
 </aside>

@@ -9,6 +9,13 @@ Bundle를 가지고 있어서 UI에서 사용하는 이미지 등을 보관할 �
 
 </aside>
 
+<aside>
+⚠️
+
+Framework는 하나의 CPU 아키텍처만 대응하기 때문에 JVM의 JAR 같이 활용할 수는 없음.
+
+</aside>
+
 ### 라이브러리 링크 타입
 
 **Dynamic**

@@ -64,3 +64,25 @@ Observable.subscribe(Consumer())의 형태로 구독한다.
 받아들인 값을 처리하는 작업 수행.
 
 accept의 오버라이드로 해당 함수를 사용할 때 LiveData.observe처럼 처리할 내용을 실행시킨다.
+
+### **Flowable**
+
+Observable과 유사하지만 backpressure 지원.
+
+생산자가 소비자보다 빠르게 아이템을 방출할 때 발생하는 문제 해결.
+
+대량의 데이터나 파일처리, 네트워크 요청에 적합.
+
+### **Completable**
+
+아이템을 방출하지 않음.
+
+단순히 Complete 혹은 Error만 발생.
+
+### Single
+
+정확히 하나의 아이템만 방출하거나 에러를 발생시킴.
+
+### Maybe
+
+0개 또는 1개의 아이템을 방출하고 완료되거나 에러를 발생시킴.
