@@ -40,3 +40,5 @@ LLVM 프레임워크와 함께 작동하여 네이티브 코드로 컴파일.
 - kt파일에 klib를 링크해서 만든 실행 파일.
 
 [Kotlin%20Native%20Command%20173f37315c448002a5e3cfe092057311](Kotlin%20Native%20Command%20173f37315c448002a5e3cfe092057311)
+
+[Kotlin%20Swift%20Interop%20242f37315c4480d7a3dbebcb50cf5b95](Kotlin%20Swift%20Interop%20242f37315c4480d7a3dbebcb50cf5b95)
