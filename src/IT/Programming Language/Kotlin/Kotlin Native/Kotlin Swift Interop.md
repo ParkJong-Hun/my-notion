@@ -51,20 +51,20 @@ Task.cancel: 작업이 취소되어도 흐름은 계속 요소 생성. |
 
 |  | Kotlin | Swift | Good? | 비고 |
 | --- | --- | --- | --- | --- |
-| Constructor |  |  |  |  |
-| Function expecting lambda argument |  |  |  |  |
-| Function returning function type |  |  |  |  |
-| Member function |  |  |  |  |
-| Mutable member properties |  |  |  |  |
-| Read-only member properties |  |  |  |  |
-| Top-level mutable var properties |  |  |  |  |
-| Top-level val properties |  |  |  |  |
+| Constructor | `Class(a = a)`  | `Class(a: a)`  | ✅ |  |
+| Function expecting lambda argument | `a(x = { ... })`  | `FileKt.a(x: { ... })`  | ✅ |  |
+| Function returning function type | `returnLambda()()`  | `FileKt.returnLambda()()` | ✅ |  |
+| Member function | `class.a()`  | `class.a()`  | ✅ |  |
+| Mutable member properties | `class.a = “”`  | `class.a = “”`  | ✅ |  |
+| Read-only member properties | `class.a`  | `class.a`  | ✅ |  |
+| Top-level mutable var properties | `a = 1`  | `FileKt.a = 1`  | ⚠️ | 탑 레벨은 Swift에서 import로 표현할 수 없으므로 파일명을 지정해야함. |
+| Top-level val properties | `a`  | `FileKt.a` | ⚠️ | 탑 레벨은 Swift에서 import로 표현할 수 없으므로 파일명을 지정해야함. |
 
 # Generics
 
 |  | Kotlin | Swift | Good? | 비고 |
 | --- | --- | --- | --- | --- |
-| Bounded generic |  |  |  |  |
+| Bounded generic | `class A<T: B>()` | -  | ⚠️ | 제네릭 정보가 전달되지 않으므로 직접 스위프트 내에서 클래스 상속 관계를 정의해야 함. |
 | Contravariant generic |  |  |  |  |
 | Covariant generic |  |  |  |  |
 | Generic class |  |  |  |  |
@@ -77,14 +77,21 @@ Task.cancel: 작업이 취소되어도 흐름은 계속 요소 생성. |
 
 |  | Kotlin | Swift | Good? | 비고 |
 | --- | --- | --- | --- | --- |
-| Constructor with default argument |  |  |  |  |
-| Function expecting lambda with receiver |  |  |  |  |
-| Function with default argument |  |  |  |  |
-| Function with overload |  |  |  |  |
+| Constructor with default argument | `class A(p : Boolean = true)`  | `class A(p: Boolean)`  | ⛔️ | 디폴트 값이 사라짐. |
+| Function expecting lambda with receiver | `a {
+  …
+}` | `a(x: { hoge in
+ …
+}`
+   | ⚠️ | 확장 함수가 람다로 변경되고, 첫번째 파라미터가 리시버. |
+| Function with default argument | `fun a(p : Boolean = true)`  | `func a(p : Boolean)` | ⛔️ | 디폴트 값이 사라짐. |
+| Function with overload | `fun a(param: Long)
+fun a(param: Float)` | `func a(param: Long)
+fun a(param_: Float)` | ⚠️ | 스위프트에서는 같은 파라미터가 같은 이름으로 오버로딩이 불가능해서, 이름에 _이 추가됨. |
 | Function with receiver |  |  |  |  |
-| Function with value class parameter |  |  |  |  |
-| Function with vararg parameter |  |  |  |  |
-| Inline function |  |  |  |  |
+| Function with value class parameter | `value class A(val x: Int)` | `x: Int32`  | ⚠️ | 내부의 타입으로 변형. |
+| Function with vararg parameter | `fun a(vararg  item: String)` | `func a(item: KotlinArray<NSString>)`  | ⚠️ | KotlinArray로 변형됨 |
+| Inline function | `a()`  | `a()` | ✅ |  |
 
 # Types
 
