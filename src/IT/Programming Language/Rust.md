@@ -10,6 +10,10 @@
 
 [Cargo%20125f37315c44800086a9c4fc48d7b453](Cargo%20125f37315c44800086a9c4fc48d7b453)
 
+[Macro%20252f37315c4480879db6da4d721a3e2f](Macro%20252f37315c4480879db6da4d721a3e2f)
+
+[String%20vs%20&str%20252f37315c448001a607e38ff076f8a0](String%20vs%20&str%20252f37315c448001a607e38ff076f8a0)
+
 ### Type
 
 **u**
@@ -26,6 +30,11 @@
 - floating point.
 - 웬만하면 계산 안정성을 위해 64가 좋음.
 
+**char**
+
+- character.
+- 무조건 4 bytes.
+
 **&str**
 
 - string slice(string literal).
@@ -38,7 +47,6 @@
 <aside>
 ⚠️
 
-char는 무조건 4bytes.
 u8으로 캐스팅 가능.
 
 숫자 뒤에 u8 등 타입을 기입하면 해당 타입으로 인식됨.
@@ -165,6 +173,7 @@ u8으로 캐스팅 가능.
 
 - module.
 - mod이름::내부struct 식으로 사용 가능.
+- 동일한 이름의 파일을 모듈로서 인식.
 
 **pub**
 
@@ -215,6 +224,19 @@ u8으로 캐스팅 가능.
 - attribute.
 - 전체 공간에 적용.
 
+**crate**
+
+- Rust 모듈화와 패키지 관리를 위한 기본 단위.
+- 코드 컴파일 단위.
+- 라이브러리 또는 실행 가능한 프로그램.
+- **binary crate**
+    - 실행 가능한 프로그램
+- **library crate**
+    - 다른 프로젝트에서 사용할 수 있는 라이브러리
+- Cargo.toml에서 외부 crate를 추가하거나 직접 생성 가능.
+- cargo new {hoge_library}로 생성 가능.
+    - —lib로 라이브러리 crate 생성 가능.
+
 ### Trait
 
 **AsRef<T>**
@@ -258,23 +280,9 @@ u8으로 캐스팅 가능.
 - 양쪽 끝에서 항목 추가 가능.
 - 기본적으로 Vec보다 성능이 안좋음.
 
-**Cell**
+[Cell%20252f37315c4480f09c8cf4f36318366e](Cell%20252f37315c4480f09c8cf4f36318366e)
 
-- 내부에서 가지는 값을 변경할 수 있도록하는 구조체.
-- 일반적인 Cell은 thread safe하지 않음.
-
-**RefCell**
-
-- 값을 직접 복사(get, set)하지 않고, 런타임에서 borrow를 체크(Ref/RefMut)하는 Cell.
-- get할 때 Ref 혹은 RefMut으로만 접근 가능.
-- set할 때 borrow_mut()을 사용해서 참조 생성 후 값을 변경해야 함.
-    - borrow (&)은 여러 번 사용 가능.
-        - 불변 참조이므로
-    - borrow_mut(&mut)은 한 번만 가능.
-        - 가변 참조이므로
-        - 여러번 가변 참조를 생성하면 런타임 에러(패닉)이 발생.
-        - borrow가 있는데, borrow_mut을 생성하면 런타임 패닉 발생.
-- 주로 String이나 Vec<T> 같은 복사 불가능한 데이터를 내부적으로 변경할 때 사용.
+[RefCell%20252f37315c4480f3999ef73a40ba13d1](RefCell%20252f37315c4480f3999ef73a40ba13d1)
 
 <aside>
 ⚠️
@@ -321,6 +329,7 @@ u8으로 캐스팅 가능.
 
 **Cow**
 
+- Clone on Write.
 - 소유된 데이터와 빌려온 데이터 모두를 저장할 수 있는 열거형.
 - 소유권이 필요할 때만 복사.
 
