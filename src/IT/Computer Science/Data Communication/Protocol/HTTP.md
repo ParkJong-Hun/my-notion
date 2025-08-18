@@ -17,10 +17,46 @@
 - [General_header](General_header)
     - HTTP 헤더를 말하는 구식 용어.
     - 요청과 응답 모두에 적용되지만 바디에서 최종적으로 전송되는 데이터와는 관련이 없는 헤더.
+    - **Date**
+        - 메시지가 생성된 날짜와 시간
+    - **Connection**
+        - 네트워크 연결 관리
+            - keep-alive, close
+    - **Transfer-Encoding**
+        - 메시지 본문의 인코딩 방식
+            - chunked 등
 - [Request_header](Request_header)
     - fetch될 리소스나 클라이언트 자체에 대한 자세한 정보를 포함하는 헤더.
+    - **Content-Type**
+        - 요청 본문의 미디어 타입 지정
+            - application/json, text/html, mutlipart/form-data 등이 있음.
+    - **Accept**
+        - 클라이언트가 받아들일 수 있는 미디어 타입을 서버에 알림
+            - application/json, text/html, application/xhtml+xml 등이 있음.
+    - **Authorization**
+        - 인증 정보 전달 (토큰, 기본 인증 등)
+            - Bearer Hoge, Basic Hoge 등
+    - **User-Agent**
+        - 클라이언트 앱 정보 (브라우저, 운영체제 등)
+    - **Host**
+        - 요청하는 서버의 호스트명과 포트
+    - **Cookie**
+        - 클라이언트에 저장된 쿠키를 서버에 전송
+    - **Referer**
+        - 현재 요청을 보낸 페이지의 URL
 - [Response_header](Response_header)
     - 위치 또는 서버 자체에 대한 정보(이름, 버전 등)와 같이 응답에 대한 부가적인 정보를 갖는 헤더.
+    - **Content-Type**
+    - **Content-Length**
+        - 응답 본문의 바이트 크기
+    - **Set-Cookie**
+        - 클라이언트에 쿠키 설정 지시
+    - **Cache-Control**
+        - 캐싱 정책 지정
+    - **Location**
+        - 리다이렉션 시 새로운 URL 지정
+    - **Server**
+        - 서버 소프트웨어 정보
 - [Entity_header](Entity_header)
     - 컨텐츠 길이나 MIME 타입과 같이 엔티티 바디에 대한 자세한 정보를 포함하는 헤더.
 
